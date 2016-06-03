@@ -8,9 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 @interface game : UIViewController {
-    
-    
-    
+//ABCDEF
     int PaddleStore;
     int BackgroundStore;
     

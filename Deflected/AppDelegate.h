@@ -7,9 +7,8 @@
 //
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
-#import <Chartboost/Chartboost.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, ChartboostDelegate>
+@interface AppDelegate : UIResponder 
 
 
 

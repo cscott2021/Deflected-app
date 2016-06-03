@@ -5,12 +5,10 @@
 //  Created by Caleb Scott on 11/13/15.
 //  Copyright © 2015 Caleb Scott. All rights reserved.
 //
-#import <Chartboost/Chartboost.h>
 #import "AppDelegate.h"
 #import "game.h"
 
-@interface AppDelegate ()<ChartboostDelegate>
-
+@interface AppDelegate ()
 @end
 
 @implementation AppDelegate
@@ -39,31 +37,9 @@
     NSLog(@"applicationDidBecomeActive");
 }
 
-/*
- * Chartboost Delegate Methods
- *
- */
-
-/*
- * didInitialize
- *
- * This is used to signal when Chartboost SDK has completed its initialization.
- *
- * status is YES if the server accepted the appID and appSignature as valid
- * status is NO if the network is unavailable or the appID/appSignature are invalid
- *
- * Is fired on:
- * -after startWithAppId has completed background initialization and is ready to display ads
- */
 - (void)didInitialize:(BOOL)status {
 
-    NSLog(@"didInitialize");
-    // chartboost is ready
-    [Chartboost cacheRewardedVideo:CBLocationMainMenu];
-    [Chartboost cacheMoreApps:CBLocationHomeScreen];
-    
-    // Show an interstitial whenever the app starts up
-    [Chartboost showInterstitial:CBLocationHomeScreen];
+  
 }
 
 

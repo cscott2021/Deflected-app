@@ -6,9 +6,7 @@
 //  Copyright © 2015 Caleb Scott. All rights reserved.
 //
 #import "game.h"
-#import <Chartboost/Chartboost.h>
-#import <Chartboost/CBAnalytics.h>
-#import <Chartboost/CBInPlay.h>
+
 
 #import "AppDelegate.h"
 #import <StoreKit/StoreKit.h>
