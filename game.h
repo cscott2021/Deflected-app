@@ -9,7 +9,7 @@
 #import <AVFoundation/AVFoundation.h>
 @interface game : UIViewController {
     
-    abcd
+    int abc;
     
     int PaddleStore;
     int BackgroundStore;
