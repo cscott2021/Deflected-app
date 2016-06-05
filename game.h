@@ -9,7 +9,6 @@
 #import <AVFoundation/AVFoundation.h>
 @interface game : UIViewController {
 
-//good job on the app
     int PaddleStore;
     int BackgroundStore;
     
