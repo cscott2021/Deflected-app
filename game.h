@@ -26,7 +26,7 @@
     
     IBOutlet UIImageView *BallStoreImage;
     IBOutlet UIButton *Buy;
-
+    
     
     IBOutlet UILabel *BallCoins;
     IBOutlet UILabel *HighScoreLabel;
@@ -57,7 +57,7 @@
     IBOutlet UIView *BallStore;
     IBOutlet UIView *Start_View;
     IBOutlet UIImageView *Ball;
-
+    
     IBOutlet UIButton *StartButton;
     IBOutlet UIImageView *PlayerXtop;
     IBOutlet UIImageView *PlayerXbottom;
@@ -69,7 +69,7 @@
     IBOutlet UILabel *EndScore;
     IBOutlet UILabel *SideControl;
     
-
+    
     AVAudioPlayer *_audioPlayer;
     
     IBOutlet UILabel *BallStoreLabel;
@@ -79,8 +79,8 @@
     IBOutlet UIImageView *Left;
     IBOutlet UIImageView *Right;
     
-
-
+    
+    
     
     
     
