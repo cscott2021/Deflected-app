@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+@import GoogleMobileAds;
 
 
 @interface game2 : UIViewController{
@@ -31,6 +32,7 @@
     NSInteger HighScore;
 
     IBOutlet UILabel *HighScoreLabel;
+    IBOutlet GADBannerView *Banner;
 
     IBOutlet UIImageView *BallStoreImage;
     IBOutlet UIButton *Buy;

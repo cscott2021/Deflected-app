@@ -114,7 +114,7 @@
             startingLineNumber = "4153"
             endingLineNumber = "4153"
             landmarkName = "-Collision"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -146,7 +146,7 @@
             startingLineNumber = "715"
             endingLineNumber = "715"
             landmarkName = "-LeftArrow:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -162,7 +162,7 @@
             startingLineNumber = "4444"
             endingLineNumber = "4444"
             landmarkName = "-BallMovement"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -178,7 +178,7 @@
             startingLineNumber = "4507"
             endingLineNumber = "4507"
             landmarkName = "-BallMovement"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -188,13 +188,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "game.m"
-            timestampString = "486612964.792628"
+            timestampString = "489645709.977291"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "-LeftArrow:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

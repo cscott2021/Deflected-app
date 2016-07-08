@@ -20,7 +20,7 @@
 		996369A21BF6F58800C3F0A9 /* game.m in Sources */ = {isa = PBXBuildFile; fileRef = 996369A11BF6F58800C3F0A9 /* game.m */; };
 		996369A61BFAA19700C3F0A9 /* HScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 996369A51BFAA19700C3F0A9 /* HScreen.jpg */; };
 		996A51E71C7F5C1800E3822C /* game2.m in Sources */ = {isa = PBXBuildFile; fileRef = 996A51E61C7F5C1800E3822C /* game2.m */; };
-		997AF6781CF2318600BAAE50 /* Music 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 997AF6771CF2318600BAAE50 /* Music 2.wav */; };
+		99B8836F1D2F6C5100DB192C /* carbon Fiber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B8836E1D2F6C5000DB192C /* carbon Fiber.jpg */; };
 		99D95A6F1C9528D500582CE5 /* deflected backround begining-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99D95A6E1C9528D500582CE5 /* deflected backround begining-0.jpg */; };
 		99D95A721C95E2A500582CE5 /* ViewControllerTry.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D95A711C95E2A500582CE5 /* ViewControllerTry.m */; };
 		99DE99481C1683AA00DEF5DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DE99471C1683AA00DEF5DB /* AudioToolbox.framework */; };
@@ -66,6 +66,8 @@
 		99F1D19B1CEBDA880030F4B0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F1D19A1CEBDA880030F4B0 /* Social.framework */; };
 		99F3D5411CE136310002C08D /* game4.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F3D5401CE136310002C08D /* game4.m */; };
 		99FB12B11CEE8EFB000E5508 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FB12B01CEE8EFB000E5508 /* QuartzCore.framework */; };
+		99FE4D581D2F605900843814 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FE4D571D2F605900843814 /* GoogleMobileAds.framework */; };
+		99FE4D5A1D2F670700843814 /* LOGO Acceleration Apps EDIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FE4D591D2F670700843814 /* LOGO Acceleration Apps EDIT.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,7 +110,7 @@
 		996369A51BFAA19700C3F0A9 /* HScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HScreen.jpg; sourceTree = "<group>"; };
 		996A51E51C7F5C1800E3822C /* game2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = game2.h; path = ../game2.h; sourceTree = "<group>"; };
 		996A51E61C7F5C1800E3822C /* game2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = game2.m; path = ../game2.m; sourceTree = "<group>"; };
-		997AF6771CF2318600BAAE50 /* Music 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Music 2.wav"; path = "../../Music 2.wav"; sourceTree = "<group>"; };
+		99B8836E1D2F6C5000DB192C /* carbon Fiber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "carbon Fiber.jpg"; path = "../../Desktop/Acceleration Apps/carbon Fiber.jpg"; sourceTree = "<group>"; };
 		99D95A6E1C9528D500582CE5 /* deflected backround begining-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "deflected backround begining-0.jpg"; sourceTree = "<group>"; };
 		99D95A701C95E2A500582CE5 /* ViewControllerTry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTry.h; sourceTree = "<group>"; };
 		99D95A711C95E2A500582CE5 /* ViewControllerTry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTry.m; sourceTree = "<group>"; };
@@ -157,6 +159,16 @@
 		99F3D53F1CE136310002C08D /* game4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = game4.h; path = ../game4.h; sourceTree = "<group>"; };
 		99F3D5401CE136310002C08D /* game4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = game4.m; path = ../game4.m; sourceTree = "<group>"; };
 		99FB12B01CEE8EFB000E5508 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		99FE4D451D2F5CF700843814 /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADMAdNetworkAdapterProtocol.h; path = "../../Desktop/GoogleMobileAdsSdkiOS-7.8.1/Mediation Adapters/GADMAdNetworkAdapterProtocol.h"; sourceTree = "<group>"; };
+		99FE4D461D2F5CF700843814 /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADMAdNetworkConnectorProtocol.h; path = "../../Desktop/GoogleMobileAdsSdkiOS-7.8.1/Mediation Adapters/GADMAdNetworkConnectorProtocol.h"; sourceTree = "<group>"; };
+		99FE4D471D2F5CF700843814 /* GADMediationAdRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADMediationAdRequest.h; path = "../../Desktop/GoogleMobileAdsSdkiOS-7.8.1/Mediation Adapters/GADMediationAdRequest.h"; sourceTree = "<group>"; };
+		99FE4D481D2F5CF700843814 /* GADMEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADMEnums.h; path = "../../Desktop/GoogleMobileAdsSdkiOS-7.8.1/Mediation Adapters/GADMEnums.h"; sourceTree = "<group>"; };
+		99FE4D491D2F5CFD00843814 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; path = "../../Desktop/GoogleMobileAdsSdkiOS-7.8.1/Mediation Adapters/GADMRewardBasedVideoAdNetworkAdapterProtocol.h"; sourceTree = "<group>"; };
+		99FE4D4A1D2F5CFD00843814 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; path = "../../Desktop/GoogleMobileAdsSdkiOS-7.8.1/Mediation Adapters/GADMRewardBasedVideoAdNetworkConnectorProtocol.h"; sourceTree = "<group>"; };
+		99FE4D511D2F5F7900843814 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../Desktop/GoogleMobileAdsSdkiOS-7.8.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		99FE4D551D2F604800843814 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		99FE4D571D2F605900843814 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = SOURCE_ROOT; };
+		99FE4D591D2F670700843814 /* LOGO Acceleration Apps EDIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LOGO Acceleration Apps EDIT.png"; path = "../../Desktop/Acceleration Apps/LOGO Acceleration Apps EDIT.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FE4D581D2F605900843814 /* GoogleMobileAds.framework in Frameworks */,
 				99FB12B11CEE8EFB000E5508 /* QuartzCore.framework in Frameworks */,
 				99F1D19B1CEBDA880030F4B0 /* Social.framework in Frameworks */,
 				99F1D1991CEBDA770030F4B0 /* Security.framework in Frameworks */,
@@ -208,6 +221,7 @@
 				996369801BF6F49900C3F0A9 /* DeflectedTests */,
 				9963698B1BF6F49900C3F0A9 /* DeflectedUITests */,
 				996369621BF6F49900C3F0A9 /* Products */,
+				99FE4D501D2F5F7900843814 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,16 +238,24 @@
 		996369631BF6F49900C3F0A9 /* Deflected */ = {
 			isa = PBXGroup;
 			children = (
+				99FE4D451D2F5CF700843814 /* GADMAdNetworkAdapterProtocol.h */,
+				99FE4D461D2F5CF700843814 /* GADMAdNetworkConnectorProtocol.h */,
+				99FE4D471D2F5CF700843814 /* GADMediationAdRequest.h */,
+				99FE4D481D2F5CF700843814 /* GADMEnums.h */,
+				99FE4D491D2F5CFD00843814 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */,
+				99FE4D4A1D2F5CFD00843814 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */,
+				99FE4D591D2F670700843814 /* LOGO Acceleration Apps EDIT.png */,
 				996369A11BF6F58800C3F0A9 /* game.m */,
 				99F3D53F1CE136310002C08D /* game4.h */,
+				99B8836E1D2F6C5000DB192C /* carbon Fiber.jpg */,
 				99F3D5401CE136310002C08D /* game4.m */,
 				99E06A731C84A7D90033A321 /* Game3.h */,
 				99E06A741C84A7D90033A321 /* Game3.m */,
 				996A51E51C7F5C1800E3822C /* game2.h */,
 				996A51E61C7F5C1800E3822C /* game2.m */,
-				997AF6771CF2318600BAAE50 /* Music 2.wav */,
 				996369A01BF6F58800C3F0A9 /* game.h */,
 				996369671BF6F49900C3F0A9 /* AppDelegate.h */,
+				99FE4D571D2F605900843814 /* GoogleMobileAds.framework */,
 				99E0AEBB1C9C786000F96660 /* Main.storyboard */,
 				99D95A701C95E2A500582CE5 /* ViewControllerTry.h */,
 				996369681BF6F49900C3F0A9 /* AppDelegate.m */,
@@ -316,6 +338,15 @@
 				9963698E1BF6F49900C3F0A9 /* Info.plist */,
 			);
 			path = DeflectedUITests;
+			sourceTree = "<group>";
+		};
+		99FE4D501D2F5F7900843814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99FE4D551D2F604800843814 /* GoogleMobileAds.framework */,
+				99FE4D511D2F5F7900843814 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,12 +454,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				99EB62C91C58147C00DE5819 /* Deep red.png in Resources */,
+				99B8836F1D2F6C5100DB192C /* carbon Fiber.jpg in Resources */,
 				9963699F1BF6F51500C3F0A9 /* Swatter.jpg in Resources */,
 				99EB62D21C58147C00DE5819 /* purple.png in Resources */,
 				99E24F4A1C5699F000931994 /* Left arrow.png in Resources */,
 				996369771BF6F49900C3F0A9 /* LaunchScreen.storyboard in Resources */,
 				99E1C4F51C0FDD000061FD0F /* ball.png in Resources */,
 				99EB62CB1C58147C00DE5819 /* green tint.png in Resources */,
+				99FE4D5A1D2F670700843814 /* LOGO Acceleration Apps EDIT.png in Resources */,
 				996369A61BFAA19700C3F0A9 /* HScreen.jpg in Resources */,
 				9963699E1BF6F51500C3F0A9 /* Game_Board.jpg in Resources */,
 				99EB62CC1C58147C00DE5819 /* Green.png in Resources */,
@@ -451,7 +484,6 @@
 				99E0AEBC1C9C786000F96660 /* Main.storyboard in Resources */,
 				99EB62C31C58147C00DE5819 /* Aqua Marine Ball.png in Resources */,
 				99EB62D01C58147C00DE5819 /* orange.png in Resources */,
-				997AF6781CF2318600BAAE50 /* Music 2.wav in Resources */,
 				99DE994C1C17066F00DEF5DB /* Game.wav in Resources */,
 				99EB62CD1C58147C00DE5819 /* light green.png in Resources */,
 			);
@@ -635,7 +667,7 @@
 					"$(PROJECT_DIR)/Deflected",
 				);
 				INFOPLIST_FILE = Deflected/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -664,7 +696,7 @@
 					"$(PROJECT_DIR)/Deflected",
 				);
 				INFOPLIST_FILE = Deflected/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

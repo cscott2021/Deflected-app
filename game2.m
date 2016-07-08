@@ -5310,6 +5310,9 @@
     
     BallStore.hidden = YES;
     Start_View.hidden = YES;
+    Banner.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
+    Banner.rootViewController = self;
+    [Banner loadRequest:[GADRequest request]];
 
     
 

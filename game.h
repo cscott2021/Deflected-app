@@ -7,6 +7,8 @@
 //
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+@import GoogleMobileAds;
+
 @interface game : UIViewController {
     int PaddleStore;
     int BackgroundStore;
@@ -51,7 +53,7 @@
     IBOutlet UIButton *GreenTintBallUse;
     IBOutlet UIButton *DeepRedTintBallUse;
     
-    
+    IBOutlet GADBannerView *Banner;
     
     IBOutlet UILabel *HomeCoins;
     IBOutlet UIView *BallStore;

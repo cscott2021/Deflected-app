@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+@import GoogleMobileAds;
 
 @interface game4 : UIViewController{
     
@@ -31,7 +32,7 @@
     
     IBOutlet UIImageView *BallStoreImage;
     IBOutlet UIButton *Buy;
-    
+    IBOutlet GADBannerView *Banner;
     
     IBOutlet UILabel *BallCoins;
     IBOutlet UILabel *HighScoreLabel;
