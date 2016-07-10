@@ -54,12 +54,15 @@
     IBOutlet UIButton *DeepRedTintBallUse;
     
     IBOutlet GADBannerView *Banner;
-    
+    IBOutlet GADBannerView *Banner2;
+    IBOutlet GADBannerView *Banner3;
+
     IBOutlet UILabel *HomeCoins;
     IBOutlet UIView *BallStore;
     IBOutlet UIView *Start_View;
     IBOutlet UIImageView *Ball;
-    
+    IBOutlet UIImageView *Ball2;
+    IBOutlet UIImageView *Ball3;
     IBOutlet UIButton *StartButton;
     IBOutlet UIImageView *PlayerXtop;
     IBOutlet UIImageView *PlayerXbottom;
@@ -107,8 +110,8 @@
     NSTimer *Ball19;
     NSTimer *Ball20;
     NSTimer *Ball1;
-    NSTimer *Ball2;
-    NSTimer *Ball3;
+    NSTimer *Ball21;
+    NSTimer *Ball22;
     NSTimer *Ball4;
     NSTimer *Ball5;
     NSTimer *Ball6;

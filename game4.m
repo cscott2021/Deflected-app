@@ -3961,12 +3961,16 @@
     
     UIImage *img = [UIImage imageNamed:@"white.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)BlackBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"black.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)StrobeBallUse{
     Ball.animationImages = [NSArray arrayWithObjects:
@@ -3976,108 +3980,148 @@
     [Ball setAnimationRepeatCount:0];
     Ball.animationDuration = 0.8;
     [Ball startAnimating];
+    [Ball2 setAnimationRepeatCount:0];
+    Ball2.animationDuration = 0.8;
+    [Ball2 startAnimating];
+    [Ball3 setAnimationRepeatCount:0];
+    Ball3.animationDuration = 0.8;
+    [Ball3 startAnimating];
 }
 -(IBAction)OrangeBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"orange.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)PinkBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"pink.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)PurpleBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"purple.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)DarkGreenBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"Dark green.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)tealBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"teal.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)BrightGreenBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"light green.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)GreenBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"Green.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)SkyBlueBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"sky blue.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)AquaMarineBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"Aqua Marine Ball.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)RedBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"red.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)SilverBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"silver.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)BlueBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"blue.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)GoldBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"gold.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)BlueTintBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"blue tint.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)GreenTintBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"green tint.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)DeepRedTintBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"Deep red.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 -(IBAction)OrangeTintBallUse{
     [Ball stopAnimating];
     
     UIImage *img = [UIImage imageNamed:@"orange tint.png"];
     [Ball setImage:img];
+    [Ball2 setImage:img];
+    [Ball3 setImage:img];
 }
 
 
@@ -4180,8 +4224,64 @@
         
         
     }
-    
-    
+    if (CGRectIntersectsRect(Ball2.frame, PlayerXbottom.frame)) {
+        
+        Y2 = arc4random() %5;
+        
+        
+        
+    }
+    if (CGRectIntersectsRect(Ball2.frame, PlayerXtop.frame)) {
+        
+        Y2 = arc4random() %5;
+        Y2 = 0-Y2;
+        
+        
+    }
+    if (CGRectIntersectsRect(Ball2.frame, PlayerYleft.frame)) {
+        
+        X2 = arc4random() %5;
+        
+        
+        
+        
+    }
+    if (CGRectIntersectsRect(Ball2.frame, PlayerYright.frame)) {
+        
+        X2 = arc4random() %5;
+        X2 = 0-X2;
+        
+        
+    }
+    if (CGRectIntersectsRect(Ball3.frame, PlayerXbottom.frame)) {
+        
+        Y3 = arc4random() %5;
+        
+        
+        
+    }
+    if (CGRectIntersectsRect(Ball3.frame, PlayerXtop.frame)) {
+        
+        Y3 = arc4random() %5;
+        Y3 = 0-Y3;
+        
+        
+    }
+    if (CGRectIntersectsRect(Ball3.frame, PlayerYleft.frame)) {
+        
+        X3 = arc4random() %5;
+        
+        
+        
+        
+    }
+    if (CGRectIntersectsRect(Ball3.frame, PlayerYright.frame)) {
+        
+        X3 = arc4random() %5;
+        X3 = 0-X3;
+        
+        
+    }
     if (CGRectIntersectsRect(SideControl.frame, PlayerYright.frame)) {
         
         
@@ -4322,7 +4422,7 @@
 
 
 -(IBAction)BallMove{
-    
+
     Exit.hidden = YES;
     StartButton.hidden = YES;
     
@@ -4339,6 +4439,7 @@
         X = 1;
     }
     
+
     EndScore.hidden = YES;
     ScoreLabel.hidden = YES;
     
@@ -4365,7 +4466,8 @@
     StartButton.hidden = YES;
     Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
     
-    
+
+
     [_audioPlayer play];
     
     
@@ -4381,9 +4483,145 @@
     
     [self Collision];
     Ball.center = CGPointMake(Ball.center.x + X, Ball.center.y + Y);
+    Ball2.center = CGPointMake(Ball2.center.x + X2, Ball2.center.y + Y2);
+    Ball3.center = CGPointMake(Ball3.center.x + X3, Ball3.center.y + Y3);
     
     
-    if (Ball.center.x < -9) {
+    
+    if (Ball3.center.x < -9) {
+        
+        
+        [timer invalidate];
+        StartButton.hidden = NO;
+        Exit.hidden = NO;
+        [timer invalidate];
+        [timer7 invalidate];
+        
+        EndScore.hidden = NO;
+        ScoreLabel.hidden = NO;
+        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [timer3 invalidate];
+        Ball2.hidden = YES;
+
+        Ball3.hidden = YES;
+        Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        [_audioPlayer stop];
+        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
+        [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
+        
+        if (EndScoreNumber > HighScore) {
+            HighScore = EndScoreNumber;
+            HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
+            
+            
+        }
+        
+        
+        
+        
+    }
+    if (Ball3.center.x > 400) {
+        [timer invalidate];
+        StartButton.hidden = NO;
+        Exit.hidden = NO;
+        [timer invalidate];
+        Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [timer7 invalidate];
+        EndScore.hidden = NO;
+        ScoreLabel.hidden = NO;
+        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [timer3 invalidate];
+        
+        Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        Ball2.hidden = YES;
+        
+        Ball3.hidden = YES;
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
+        [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
+        
+        [_audioPlayer stop];
+        
+        
+        if (EndScoreNumber > HighScore) {
+            HighScore = EndScoreNumber;
+            HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
+            [[NSUserDefaults standardUserDefaults] setInteger:HighScore forKey:@"HighScore"];
+            
+            
+        }
+    }
+    if (Ball3.center.y > 435) {
+        [timer invalidate];
+        StartButton.hidden = NO;
+        Exit.hidden = NO;
+        [timer invalidate];
+        [ScoreTime invalidate];
+        Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [timer7 invalidate];
+        Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [timer3 invalidate];
+        Ball2.hidden = YES;
+        
+        Ball3.hidden = YES;
+        EndScore.hidden = NO;
+        ScoreLabel.hidden = NO;
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
+        [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
+        
+        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [_audioPlayer stop];
+        
+        
+        if (EndScoreNumber > HighScore) {
+            HighScore = EndScoreNumber;
+            HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
+            [[NSUserDefaults standardUserDefaults] setInteger:HighScore forKey:@"HighScore"];
+            
+            
+        }
+    }
+    if (Ball3.center.y < 32) {
+        [timer invalidate];
+        StartButton.hidden = NO;
+        Exit.hidden = NO;
+        [timer invalidate];
+        Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [timer7 invalidate];
+        EndScore.hidden = NO;
+        ScoreLabel.hidden = NO;
+        Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [timer3 invalidate];
+        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
+        [_audioPlayer stop];
+        [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
+        
+        Ball2.hidden = YES;
+        
+        Ball3.hidden = YES;
+        if (EndScoreNumber > HighScore) {
+            HighScore = EndScoreNumber;
+            HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
+            [[NSUserDefaults standardUserDefaults] setInteger:HighScore forKey:@"HighScore"];
+            
+            
+        }
+    }
+    
+    
+    
+    if (Ball2.center.x < -9) {
         
         
         [timer invalidate];
@@ -4398,7 +4636,145 @@
         [timer3 invalidate];
         
         Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);
+        Ball2.hidden = YES;
+        
+        Ball3.hidden = YES;
         [_audioPlayer stop];
+        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
+        [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
+        
+        if (EndScoreNumber > HighScore) {
+            HighScore = EndScoreNumber;
+            HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
+            
+            
+        }
+        
+        
+        
+        
+    }
+    if (Ball2.center.x > 400) {
+        [timer invalidate];
+        StartButton.hidden = NO;
+        Exit.hidden = NO;
+        [timer invalidate];
+        Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [timer7 invalidate];
+        EndScore.hidden = NO;
+        ScoreLabel.hidden = NO;
+        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [timer3 invalidate];
+        Ball2.hidden = YES;
+        
+        Ball3.hidden = YES;
+        Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
+        [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
+        
+        [_audioPlayer stop];
+        
+        
+        if (EndScoreNumber > HighScore) {
+            HighScore = EndScoreNumber;
+            HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
+            [[NSUserDefaults standardUserDefaults] setInteger:HighScore forKey:@"HighScore"];
+            
+            
+        }
+    }
+    if (Ball2.center.y > 435) {
+        [timer invalidate];
+        StartButton.hidden = NO;
+        Exit.hidden = NO;
+        [timer invalidate];
+        [ScoreTime invalidate];
+        Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [timer7 invalidate];
+        Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [timer3 invalidate];
+        Ball2.hidden = YES;
+        
+        Ball3.hidden = YES;
+        EndScore.hidden = NO;
+        ScoreLabel.hidden = NO;
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
+        [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
+        
+        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [_audioPlayer stop];
+        
+        
+        if (EndScoreNumber > HighScore) {
+            HighScore = EndScoreNumber;
+            HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
+            [[NSUserDefaults standardUserDefaults] setInteger:HighScore forKey:@"HighScore"];
+            
+            
+        }
+    }
+    if (Ball2.center.y < 32) {
+        [timer invalidate];
+        StartButton.hidden = NO;
+        Exit.hidden = NO;
+        [timer invalidate];
+        Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [timer7 invalidate];
+        EndScore.hidden = NO;
+        ScoreLabel.hidden = NO;
+        Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [timer3 invalidate];
+        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
+        [_audioPlayer stop];
+        [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
+        
+        Ball2.hidden = YES;
+        
+        Ball3.hidden = YES;
+        if (EndScoreNumber > HighScore) {
+            HighScore = EndScoreNumber;
+            HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
+            [[NSUserDefaults standardUserDefaults] setInteger:HighScore forKey:@"HighScore"];
+            
+            
+        }
+    }
+    
+
+    
+    if (Ball.center.x < -9) {
+        
+        
+        [timer invalidate];
+        StartButton.hidden = NO;
+        Exit.hidden = NO;
+        [timer invalidate];
+        [timer7 invalidate];
+        
+        EndScore.hidden = NO;
+        ScoreLabel.hidden = NO;
+        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        [timer3 invalidate];
+        Ball2.hidden = YES;
+        
+        Ball3.hidden = YES;
+        Ball.center = CGPointMake(150, 154);
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        [_audioPlayer stop];
         HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
         EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
         Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
@@ -4428,9 +4804,12 @@
         ScoreLabel.hidden = NO;
         EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
         [timer3 invalidate];
+        Ball2.hidden = YES;
         
+        Ball3.hidden = YES;
         Ball.center = CGPointMake(150, 154);
-        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
         
         [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
         [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
@@ -4455,7 +4834,8 @@
         Score.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
         [timer7 invalidate];
         Ball.center = CGPointMake(150, 154);
-        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
         [timer3 invalidate];
         
         EndScore.hidden = NO;
@@ -4465,7 +4845,9 @@
 
         HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
         [_audioPlayer stop];
+        Ball2.hidden = YES;
         
+        Ball3.hidden = YES;
         
         if (EndScoreNumber > HighScore) {
             HighScore = EndScoreNumber;
@@ -4485,14 +4867,17 @@
         EndScore.hidden = NO;
         ScoreLabel.hidden = NO;
         Ball.center = CGPointMake(150, 154);
-        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
+        Ball2.center = CGPointMake(150, 154);
+        Ball3.center = CGPointMake(150, 154);        EndScore.text = [NSString stringWithFormat:@"%i", EndScoreNumber];
         [timer3 invalidate];
         HomeCoins.text = [NSString stringWithFormat:@"%li", (long)ScoreNumber];
         [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"ScoreNumber"];
         [_audioPlayer stop];
         [[NSUserDefaults standardUserDefaults] setInteger:BallS forKey:@"BallS"];
 
+        Ball2.hidden = YES;
         
+        Ball3.hidden = YES;
         if (EndScoreNumber > HighScore) {
             HighScore = EndScoreNumber;
             HighScoreLabel.text = [NSString stringWithFormat:@"%li", (long)HighScore];
@@ -5317,9 +5702,20 @@
     
     BallStore.hidden = YES;
     Start_View.hidden = YES;
-    Banner.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
+    Banner.adUnitID = @"ca-app-pub-3383258975090991/2355387268";
     Banner.rootViewController = self;
-    [Banner loadRequest:[GADRequest request]];
+    GADRequest *request = [GADRequest request];
+    [Banner loadRequest:request];
+    
+    Banner2.adUnitID = @"ca-app-pub-3383258975090991/2355387268";
+    Banner2.rootViewController = self;
+    [Banner2 loadRequest:request];
+    
+    Banner3.adUnitID = @"ca-app-pub-3383258975090991/2355387268";
+    Banner3.rootViewController = self;
+    [Banner3 loadRequest:request];
+    
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -117,6 +117,11 @@
                                         <frame key="frameInset" minX="163" minY="375" width="86" height="12"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="plz-SM-ffq" customClass="GADBannerView">
+                                        <frame key="frameInset" minY="645" width="419" height="92"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JN7-8F-Zah">
                                         <frame key="frameInset" minX="-177" minY="-205" width="823" height="1041"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -167,6 +172,11 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5xU-Gt-pq8" customClass="GADBannerView">
+                                                <frame key="frameInset" minX="176" minY="851" width="419" height="93"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o7A-Vg-PRO">
                                                 <frame key="frameInset" minX="176" minY="204" width="449" height="1232"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -516,6 +526,9 @@
                         <outlet property="BallStore" destination="o7A-Vg-PRO" id="hvi-3N-Bz7"/>
                         <outlet property="BallStoreImage" destination="Q77-S9-Em5" id="G78-PV-dFP"/>
                         <outlet property="BallStoreLabel" destination="0n3-Jg-nw5" id="AaB-JY-58P"/>
+                        <outlet property="Banner" destination="DG1-QO-zfj" id="tnZ-5l-FMg"/>
+                        <outlet property="Banner2" destination="5xU-Gt-pq8" id="9c9-yi-93g"/>
+                        <outlet property="Banner3" destination="plz-SM-ffq" id="Dpk-wX-SXs"/>
                         <outlet property="BlackBallUse" destination="hxX-eL-0ry" id="gM2-1f-ZaE"/>
                         <outlet property="BlueBallUse" destination="KZN-XT-BGm" id="lIc-t7-yra"/>
                         <outlet property="BlueTintBallUse" destination="qnl-Hr-hEv" id="fQg-tu-Vcb"/>
@@ -571,6 +584,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i0S-7x-f8S" customClass="GADBannerView">
+                                <frame key="frameInset" minY="591" width="375" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Game_Board.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yIi-be-kvh">
                                 <frame key="frameInset" minX="-52" minY="44" width="704" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -716,6 +734,11 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wQm-RM-QNg" customClass="GADBannerView">
+                                        <frame key="frameInset" minX="195" minY="804" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5yf-O8-v1N">
                                         <frame key="frameInset" minX="195" minY="213" width="375" height="1232"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1066,7 +1089,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jHf-X7-m8G" customClass="GADBannerView">
-                                                <frame key="frameInset" minY="577" width="375" height="93"/>
+                                                <frame key="frameInset" minY="590" width="375" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
@@ -1086,6 +1109,9 @@
                         <outlet property="BallStore" destination="5yf-O8-v1N" id="d7K-Ys-ief"/>
                         <outlet property="BallStoreImage" destination="OGW-VD-xXm" id="2dC-qj-ITw"/>
                         <outlet property="BallStoreLabel" destination="pJM-Zl-4D5" id="GDq-Kn-7vP"/>
+                        <outlet property="Banner" destination="jHf-X7-m8G" id="edY-34-rKp"/>
+                        <outlet property="Banner2" destination="wQm-RM-QNg" id="a73-Zy-rBH"/>
+                        <outlet property="Banner3" destination="i0S-7x-f8S" id="8Uq-ny-W9g"/>
                         <outlet property="BlackBallUse" destination="roY-xG-bwe" id="nDc-fm-CSx"/>
                         <outlet property="BlueBallUse" destination="p6S-aW-r41" id="u72-y4-85V"/>
                         <outlet property="BlueTintBallUse" destination="JNL-ky-PXc" id="v0H-Tf-lGe"/>
@@ -1229,6 +1255,11 @@
                                 <frame key="frameInset" minX="9" minY="119" width="12" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kxx-ob-W1N" customClass="GADBannerView">
+                                <frame key="frameInset" minX="-2" minY="490" width="323" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjR-Yb-IyQ">
                                 <frame key="frameInset" minX="-252" minY="-236" width="823" height="1041"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1279,6 +1310,11 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ExI-mp-689" customClass="GADBannerView">
+                                        <frame key="frameInset" minX="250" minY="726" width="323" height="78"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DPe-0l-Meb">
                                         <frame key="frameInset" minX="252" minY="234" width="323" height="1232"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1606,268 +1642,9 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7CC-Pu-ebs" customClass="GADBannerView">
-                                                <frame key="frameInset" minY="569" width="323" height="93"/>
+                                                <frame key="frameInset" minY="491" width="323" height="78"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="waK-AN-yNx">
-                                                <frame key="frameInset" width="323" height="1232"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxE-bq-9d7">
-                                                        <frame key="frameInset" minX="283" minY="160" width="40" height="313"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLi-Mm-jBk">
-                                                        <frame key="frameInset" minY="160" width="42" height="313"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIN-gJ-2uJ">
-                                                        <frame key="frameInset" minX="1" minY="58" width="323" height="52"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Home">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="PaddleHome:" destination="fp5-4e-wup" eventType="touchUpInside" id="RUF-3V-Y59"/>
-                                                        </connections>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ball" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPw-Hp-TIQ" userLabel="Ball">
-                                                        <frame key="frameInset" width="323" height="50"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNr-tA-eh4">
-                                                        <frame key="frameInset" minX="42" minY="160" width="241" height="313"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZYE-Rr-Ivu">
-                                                        <frame key="frameInset" minX="88" minY="187" width="146" height="146"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Right arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="7ie-KS-eqi">
-                                                        <frame key="frameInset" minX="283" minY="162" width="40" height="311"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Left arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="5OB-gc-PQU">
-                                                        <frame key="frameInset" minX="1" minY="160" width="41" height="313"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7p-Wc-uFU">
-                                                        <frame key="frameInset" minX="67" minY="395" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7B-Ej-jwb">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xd-LS-jEa">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XyL-Um-pJ1">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iul-vs-xrQ">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SW-wa-ETL">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sN-OO-CjT">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeJ-Pe-qn7">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XyA-Dv-r02">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfn-b0-FJl">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lc7-za-nIU">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="En1-cG-CwI">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZ2-7A-FCZ">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQG-c7-rdC">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cue-A1-bdd">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xba-Vh-MFp">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNf-Ul-QZa">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhq-nk-aeR">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0s-bL-2Cn">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JX-Ja-ONZ">
-                                                        <frame key="frameInset" minX="67" minY="577" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Use">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbO-Ys-FPm">
-                                                        <frame key="frameInset" minX="68" minY="395" width="189" height="78"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="backgroundColor" red="0.25527147059999999" green="0.25527147059999999" blue="0.25527147059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                                        <state key="normal" title="Buy">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="White Ball" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFu-GN-Gul">
-                                                        <frame key="frameInset" minX="28" minY="334" width="255" height="65"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUX-3F-Ndv">
-                                                        <frame key="frameInset" minX="42" minY="118" width="241" height="43"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1881,69 +1658,52 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <connections>
                         <outlet property="AquaMarineBallUse" destination="uQm-t0-CoI" id="gFO-qv-XaW"/>
-                        <outlet property="AquaMarineBgUse" destination="w7p-Wc-uFU" id="f9q-RH-qqs"/>
                         <outlet property="Ball" destination="iPb-8E-Nh3" id="eiP-8K-fqR"/>
                         <outlet property="BallCoins" destination="hgZ-ND-jHf" id="8B5-eQ-pmH"/>
                         <outlet property="BallStore" destination="DPe-0l-Meb" id="meC-lm-I5G"/>
                         <outlet property="BallStoreImage" destination="yLC-LG-2Sf" id="khF-al-FRK"/>
                         <outlet property="BallStoreLabel" destination="djI-uC-Hik" id="Tig-Nl-lxv"/>
+                        <outlet property="Banner" destination="7CC-Pu-ebs" id="48x-xE-nbZ"/>
+                        <outlet property="Banner2" destination="ExI-mp-689" id="Ygh-9a-e4r"/>
+                        <outlet property="Banner3" destination="kxx-ob-W1N" id="ytf-WZ-O6f"/>
                         <outlet property="BlackBallUse" destination="8lV-FE-QNS" id="Cyn-TF-49h"/>
-                        <outlet property="BlackBgUse" destination="p7B-Ej-jwb" id="EyV-dc-7Ne"/>
                         <outlet property="BlueBallUse" destination="h3j-Cd-hS8" id="hfO-s6-unG"/>
-                        <outlet property="BlueBgUse" destination="0xd-LS-jEa" id="VfT-a8-Zqw"/>
                         <outlet property="BlueTintBallUse" destination="gNM-2g-zDP" id="VcL-cw-DL0"/>
-                        <outlet property="BlueTintBgUse" destination="XyL-Um-pJ1" id="rug-RI-6zv"/>
                         <outlet property="Bottom" destination="bAS-8h-WEg" id="tM8-mr-vvA"/>
                         <outlet property="BrightGreenBallUse" destination="S4h-wh-5uV" id="W0X-oy-sGt"/>
-                        <outlet property="BrightGreenBgUse" destination="Iul-vs-xrQ" id="yWp-RS-7Lz"/>
                         <outlet property="Buy" destination="BFQ-gV-xoN" id="aa7-HJ-SkW"/>
                         <outlet property="Coins" destination="dC2-NK-dKJ" id="qhL-ko-UO5"/>
                         <outlet property="DarkGreenBallUse" destination="0Z6-r2-o3D" id="vrz-Wh-Q3A"/>
-                        <outlet property="DarkGreenBgUse" destination="2SW-wa-ETL" id="TrY-Go-WlZ"/>
                         <outlet property="DeepRedTintBallUse" destination="UbL-eL-XgG" id="59k-Q9-LVw"/>
-                        <outlet property="DeepRedTintBgUse" destination="6sN-OO-CjT" id="Mlx-F0-Kxs"/>
                         <outlet property="EndScore" destination="GiX-v5-yuG" id="dIq-ds-hWy"/>
                         <outlet property="Exit" destination="wn1-xf-EYV" id="54a-70-c9s"/>
                         <outlet property="GoldBallUse" destination="ptk-hb-loT" id="Foy-TD-5vh"/>
-                        <outlet property="GoldBgUse" destination="BeJ-Pe-qn7" id="JjJ-Pf-sTm"/>
                         <outlet property="GreenBallUse" destination="mu8-4p-j17" id="Hzd-bt-17f"/>
-                        <outlet property="GreenBgUse" destination="XyA-Dv-r02" id="kwd-r5-Un8"/>
                         <outlet property="GreenTintBallUse" destination="nDr-rA-Co4" id="Bcj-AF-yVJ"/>
-                        <outlet property="GreenTintBgUse" destination="cfn-b0-FJl" id="d0g-qk-gZ6"/>
                         <outlet property="HighScoreLabel" destination="lC7-V9-mLb" id="DCF-2d-LZh"/>
                         <outlet property="HomeCoins" destination="Clt-2B-HN2" id="7Hm-Bj-aan"/>
                         <outlet property="Left" destination="s9W-pD-1w7" id="Vac-p2-lAm"/>
                         <outlet property="OrangeBallUse" destination="St7-xF-L0a" id="Tza-r0-N0O"/>
-                        <outlet property="OrangeBgUse" destination="Lc7-za-nIU" id="jtX-Uc-Uaw"/>
                         <outlet property="OrangeTintBallUse" destination="lsR-uk-U9n" id="HwP-pD-ghd"/>
-                        <outlet property="OrangeTintBgUse" destination="En1-cG-CwI" id="3g7-Cg-HTx"/>
                         <outlet property="PinkBallUse" destination="ejQ-kz-SLg" id="oAK-Nb-SGL"/>
-                        <outlet property="PinkBgUse" destination="tZ2-7A-FCZ" id="75L-UR-7mf"/>
                         <outlet property="PlayerXbottom" destination="bAS-8h-WEg" id="6ne-eJ-ZCK"/>
                         <outlet property="PlayerXtop" destination="cuG-zT-jLT" id="iis-da-r5S"/>
                         <outlet property="PlayerYleft" destination="s9W-pD-1w7" id="MR4-Nu-eJ4"/>
                         <outlet property="PlayerYright" destination="Y6Q-5K-Rqq" id="qJ4-Ci-zEQ"/>
                         <outlet property="PurpleBallUse" destination="FwB-zb-hMP" id="hZW-aZ-fyh"/>
-                        <outlet property="PurpleBgUse" destination="CQG-c7-rdC" id="MnQ-U6-zms"/>
                         <outlet property="RedBallUse" destination="Q2s-z7-n5V" id="Nyr-jE-hES"/>
-                        <outlet property="RedBgUse" destination="cue-A1-bdd" id="Sel-x4-bs8"/>
                         <outlet property="Right" destination="Y6Q-5K-Rqq" id="L99-Al-K7m"/>
                         <outlet property="Score" destination="Vdw-E2-BYb" id="kDD-Ou-xQw"/>
                         <outlet property="ScoreLabel" destination="Vk9-zx-ARa" id="smS-UZ-CRY"/>
                         <outlet property="SideControl" destination="UtR-hD-SUF" id="8EJ-n5-w4o"/>
                         <outlet property="SilverBallUse" destination="Cmw-aN-twZ" id="mp5-ev-Hoq"/>
-                        <outlet property="SilverBgUse" destination="xba-Vh-MFp" id="DdO-q5-KcN"/>
                         <outlet property="SkyBlueBallUse" destination="yXu-FX-lCB" id="0pC-3B-Mls"/>
-                        <outlet property="SkyBlueBgUse" destination="jNf-Ul-QZa" id="Okg-lV-ifT"/>
                         <outlet property="StartButton" destination="5q4-YH-77r" id="zd0-1d-79L"/>
                         <outlet property="Start_View" destination="fjR-Yb-IyQ" id="Tsh-QM-8Vw"/>
                         <outlet property="StrobeBallUse" destination="Ed9-nh-xVD" id="iFW-px-Gdy"/>
-                        <outlet property="StrobeBgUse" destination="jhq-nk-aeR" id="pAI-Iv-u0b"/>
                         <outlet property="Top" destination="cuG-zT-jLT" id="JsQ-Nu-6cr"/>
                         <outlet property="WhiteBallUse" destination="wsi-xx-VdM" id="OqS-gW-TFI"/>
-                        <outlet property="WhiteBgUse" destination="8JX-Ja-ONZ" id="OhY-WX-DGQ"/>
                         <outlet property="tealBallUse" destination="IUc-ec-JNc" id="aKN-62-TXV"/>
-                        <outlet property="tealBgUse" destination="h0s-bL-2Cn" id="SZ5-vt-JdF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0MI-01-Yle" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2112,6 +1872,14 @@
                                 <frame key="frameInset" minX="150" minY="154" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="VW5-GB-Qsz">
+                                <frame key="frameInset" minX="150" minY="154" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Sy-ML-b3P">
+                                <frame key="frameInset" minX="150" minY="154" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swatter.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="e37-lx-krL">
                                 <frame key="frameInset" minX="117" minY="41" width="86" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2134,6 +1902,11 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0LR-mr-Dfg" customClass="GADBannerView">
+                                <frame key="frameInset" minX="-1" minY="417" width="322" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zMP-JR-fLh">
                                 <frame key="frameInset" minX="-252" minY="-280" width="823" height="1041"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2186,6 +1959,11 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HCW-HN-bMP" customClass="GADBannerView">
+                                        <frame key="frameInset" minX="250" minY="694" width="322" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6O1-kX-WHE">
                                         <frame key="frameInset" minX="249" minY="186" width="323" height="1232"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2551,10 +2329,15 @@
                     <connections>
                         <outlet property="AquaMarineBallUse" destination="mRr-J4-Dzr" id="k0z-FC-FNL"/>
                         <outlet property="Ball" destination="VW8-Bt-Ely" id="g7q-zQ-TaZ"/>
+                        <outlet property="Ball2" destination="VW5-GB-Qsz" id="a8D-SW-1cA"/>
+                        <outlet property="Ball3" destination="9Sy-ML-b3P" id="WpX-oV-mrU"/>
                         <outlet property="BallCoins" destination="U6f-ml-Moo" id="LS6-ze-SS1"/>
                         <outlet property="BallStore" destination="6O1-kX-WHE" id="qjj-zi-JP8"/>
                         <outlet property="BallStoreImage" destination="IpJ-Wq-UBf" id="a5n-GV-P7b"/>
                         <outlet property="BallStoreLabel" destination="h42-YJ-HpY" id="s1Y-WJ-aM6"/>
+                        <outlet property="Banner" destination="EDH-Ae-11e" id="uhw-IK-qQc"/>
+                        <outlet property="Banner2" destination="HCW-HN-bMP" id="gUd-QJ-PTY"/>
+                        <outlet property="Banner3" destination="0LR-mr-Dfg" id="ZOm-wh-sAc"/>
                         <outlet property="BlackBallUse" destination="Pdt-i5-G0S" id="CbK-Tt-58d"/>
                         <outlet property="BlueBallUse" destination="FJy-sl-VTs" id="iu4-LU-fPC"/>
                         <outlet property="BlueTintBallUse" destination="Ade-7B-PdL" id="ojh-aj-SKl"/>

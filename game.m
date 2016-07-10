@@ -3965,6 +3965,8 @@
     
     UIImage *img = [UIImage imageNamed:@"white.png"];
     [Ball setImage:img];
+
+
 }
 -(IBAction)BlackBallUse{
     [Ball stopAnimating];
@@ -5331,12 +5333,20 @@
     }
     BallStore.hidden = YES;
     Start_View.hidden = YES;
-    Banner.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
+    Banner.adUnitID = @"ca-app-pub-3383258975090991/2355387268";
     Banner.rootViewController = self;
-    [Banner loadRequest:[GADRequest request]];
+    GADRequest *request = [GADRequest request];
+    [Banner loadRequest:request];
+
+    Banner2.adUnitID = @"ca-app-pub-3383258975090991/2355387268";
+    Banner2.rootViewController = self;
+    [Banner2 loadRequest:request];
+    
+    Banner3.adUnitID = @"ca-app-pub-3383258975090991/2355387268";
+    Banner3.rootViewController = self;
+    [Banner3 loadRequest:request];
 }
 
-    
 
     
 
